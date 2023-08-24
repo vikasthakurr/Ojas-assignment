@@ -1,3 +1,8 @@
+
+
+![Screenshot (52)](https://github.com/vikasthakurr/Ojas-assignment/assets/57730639/ac6e45b8-ce4d-4730-b3b9-00878943cec9)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
