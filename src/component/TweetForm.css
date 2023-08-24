@@ -1,0 +1,55 @@
+.tweet-form {
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.tweet-form textarea {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  resize: none;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.media-buttons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.media-buttons label {
+  background-color: transparent;
+  color: #1da1f2;
+  border: none;
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-right: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.media-buttons label.active {
+  background-color: #1da1f2;
+  color: white;
+}
+
+.media-buttons input[type="file"] {
+  display: none;
+}
+
+.tweet-form button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+  margin: 10px;
+}

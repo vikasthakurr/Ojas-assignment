@@ -1,0 +1,49 @@
+.tweet-list {
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Tweet container */
+.tweet {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* User info container */
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.user-info h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.tweet p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.tweet-media img,
+.tweet-media video {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 12px;
+}
